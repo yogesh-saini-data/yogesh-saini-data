@@ -25,9 +25,9 @@
 
   <!-- Top Stat Metrics -->
   <g transform="translate(25, 70)">
-    <text class="label" x="0" y="0">🔀 Pull Requests: <tspan class="value">7</tspan></text>
+    <text class="label" x="0" y="0">🔀 Pull Requests: <tspan class="value">5</tspan></text>
     <text class="label" x="180" y="0">🔨 Code Pushes: <tspan class="value">0</tspan></text>
-    <text class="label" x="0" y="22">🔥 Recent Events: <tspan class="value">7</tspan></text>
+    <text class="label" x="0" y="22">🔥 Recent Events: <tspan class="value">5</tspan></text>
   </g>
 
   <!-- Curve Chart Section -->
