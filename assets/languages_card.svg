@@ -1,12 +1,12 @@
-<svg width="450" height="200" viewBox="0 0 450 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="450" height="220" viewBox="0 0 450 220" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .bg { fill: #1a1b26; rx: 10px; }
     .border { stroke: #414868; stroke-width: 1px; fill: none; rx: 10px; }
     .title { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 700; font-size: 18px; fill: #7dcfff; }
   </style>
 
-  <rect width="450" height="200" class="bg" />
-  <rect width="449" height="199" x="0.5" y="0.5" class="border" />
+  <rect width="450" height="220" class="bg" />
+  <rect width="449" height="219" x="0.5" y="0.5" class="border" />
 
   <!-- Title -->
   <text x="25" y="35" class="title">💻 Top Languages Used</text>

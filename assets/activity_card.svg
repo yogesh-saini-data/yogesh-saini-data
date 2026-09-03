@@ -1,35 +1,48 @@
-<svg width="450" height="200" viewBox="0 0 450 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="450" height="220" viewBox="0 0 450 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="curveGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7dcfff" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#7dcfff" stop-opacity="0.0" />
+    </linearGradient>
+  </defs>
+
   <style>
     .bg { fill: #1a1b26; rx: 10px; }
     .border { stroke: #414868; stroke-width: 1px; fill: none; rx: 10px; }
     .title { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 700; font-size: 18px; fill: #bb9af7; }
-    .label { font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 14px; fill: #a9b1d6; }
-    .value { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 600; font-size: 14px; fill: #9ece6a; }
-    .curve { stroke: #7dcfff; stroke-width: 3px; fill: none; stroke-linecap: round; }
+    .label { font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 13px; fill: #a9b1d6; }
+    .value { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 600; font-size: 13px; fill: #9ece6a; }
+    .axis { stroke: #3b4261; stroke-width: 1px; stroke-dasharray: 2 2; }
+    .curve-line { stroke: #7dcfff; stroke-width: 3px; fill: none; stroke-linecap: round; }
   </style>
 
-  <rect width="450" height="200" class="bg" />
-  <rect width="449" height="199" x="0.5" y="0.5" class="border" />
+  <rect width="450" height="220" class="bg" />
+  <rect width="449" height="219" x="0.5" y="0.5" class="border" />
 
   <!-- Title -->
-  <text x="25" y="35" class="title">📈 Activity & Contribution Curve</text>
+  <text x="25" y="35" class="title">📈 Activity &amp; Contribution Curve</text>
   <line x1="25" y1="48" x2="425" y2="48" stroke="#3b4261" stroke-width="1" />
 
-  <!-- Stat Items -->
-  <g transform="translate(25, 75)">
-    <text class="label" x="0" y="0">🔀 Pull Requests:</text>
-    <text class="value" x="380" y="0" text-anchor="end">7</text>
-
-    <text class="label" x="0" y="25">🔨 Code Pushes:</text>
-    <text class="value" x="380" y="25" text-anchor="end">0</text>
-
-    <text class="label" x="0" y="50">✨ Created Branches/Repos:</text>
-    <text class="value" x="380" y="50" text-anchor="end">0</text>
-
-    <text class="label" x="0" y="75">📋 Issue Activity:</text>
-    <text class="value" x="380" y="75" text-anchor="end">0</text>
-
-    <text class="label" x="0" y="100">🔥 Total Public Events (90d):</text>
-    <text class="value" x="380" y="100" text-anchor="end">7</text>
+  <!-- Top Stat Metrics -->
+  <g transform="translate(25, 70)">
+    <text class="label" x="0" y="0">🔀 Pull Requests: <tspan class="value">7</tspan></text>
+    <text class="label" x="180" y="0">🔨 Code Pushes: <tspan class="value">0</tspan></text>
+    <text class="label" x="0" y="22">🔥 Recent Events: <tspan class="value">7</tspan></text>
   </g>
+
+  <!-- Curve Chart Section -->
+  <text x="25" y="125" class="label" font-weight="600" fill="#7aa2f7">Recent Daily Activity Trend</text>
+
+  <!-- Grid lines -->
+  <line x1="35" y1="140" x2="415" y2="140" class="axis" />
+  <line x1="35" y1="185" x2="415" y2="185" stroke="#3b4261" stroke-width="1" />
+
+  <!-- Area Fill under curve -->
+  <path d="M 35.0,170.0 C 66.7,170.0 66.7,170.0 98.3,170.0 C 130.0,170.0 130.0,170.0 161.7,170.0 C 193.3,170.0 193.3,170.0 225.0,170.0 C 256.7,170.0 256.7,170.0 288.3,170.0 C 320.0,170.0 320.0,155.0 351.7,155.0 C 383.3,155.0 383.3,140.0 415.0,140.0 L 415.0,185 L 35.0,185 Z" fill="url(#curveGradient)" />
+
+  <!-- Curve Line -->
+  <path d="M 35.0,170.0 C 66.7,170.0 66.7,170.0 98.3,170.0 C 130.0,170.0 130.0,170.0 161.7,170.0 C 193.3,170.0 193.3,170.0 225.0,170.0 C 256.7,170.0 256.7,170.0 288.3,170.0 C 320.0,170.0 320.0,155.0 351.7,155.0 C 383.3,155.0 383.3,140.0 415.0,140.0" class="curve-line" />
+
+  <!-- Data Dots -->
+  <circle cx="35.0" cy="170.0" r="3" fill="#7dcfff" /><circle cx="98.3" cy="170.0" r="3" fill="#7dcfff" /><circle cx="161.7" cy="170.0" r="3" fill="#7dcfff" /><circle cx="225.0" cy="170.0" r="3" fill="#7dcfff" /><circle cx="288.3" cy="170.0" r="3" fill="#7dcfff" /><circle cx="351.7" cy="155.0" r="3" fill="#7dcfff" /><circle cx="415.0" cy="140.0" r="3" fill="#7dcfff" />
 </svg>
