@@ -1,0 +1,35 @@
+<svg width="450" height="200" viewBox="0 0 450 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #1a1b26; rx: 10px; }
+    .border { stroke: #414868; stroke-width: 1px; fill: none; rx: 10px; }
+    .title { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 700; font-size: 18px; fill: #bb9af7; }
+    .label { font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 14px; fill: #a9b1d6; }
+    .value { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 600; font-size: 14px; fill: #9ece6a; }
+    .curve { stroke: #7dcfff; stroke-width: 3px; fill: none; stroke-linecap: round; }
+  </style>
+
+  <rect width="450" height="200" class="bg" />
+  <rect width="449" height="199" x="0.5" y="0.5" class="border" />
+
+  <!-- Title -->
+  <text x="25" y="35" class="title">📈 Activity & Contribution Curve</text>
+  <line x1="25" y1="48" x2="425" y2="48" stroke="#3b4261" stroke-width="1" />
+
+  <!-- Stat Items -->
+  <g transform="translate(25, 75)">
+    <text class="label" x="0" y="0">🔀 Pull Requests:</text>
+    <text class="value" x="380" y="0" text-anchor="end">7</text>
+
+    <text class="label" x="0" y="25">🔨 Code Pushes:</text>
+    <text class="value" x="380" y="25" text-anchor="end">0</text>
+
+    <text class="label" x="0" y="50">✨ Created Branches/Repos:</text>
+    <text class="value" x="380" y="50" text-anchor="end">0</text>
+
+    <text class="label" x="0" y="75">📋 Issue Activity:</text>
+    <text class="value" x="380" y="75" text-anchor="end">0</text>
+
+    <text class="label" x="0" y="100">🔥 Total Public Events (90d):</text>
+    <text class="value" x="380" y="100" text-anchor="end">7</text>
+  </g>
+</svg>

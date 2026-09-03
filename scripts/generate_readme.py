@@ -34,6 +34,7 @@ from metrics import (
     summarize_activity,
 )
 from renderer import render_readme, validate_readme
+from svg_generator import save_svg_cards
 
 
 def parse_args():
@@ -114,7 +115,12 @@ def main():
         )
         activity_summary = summarize_activity(data["activity"])
 
-        # Step 4: Render README
+        # Step 4: Generate custom SVG cards
+        assets_dir = root / "assets"
+        logger.info("Generating custom SVG cards...")
+        save_svg_cards(stats, activity_summary, language_stats, assets_dir)
+
+        # Step 5: Render README
         readme_content = render_readme(
             template_path=template_path,
             stats=stats,

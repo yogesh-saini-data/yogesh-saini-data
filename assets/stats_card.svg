@@ -1,0 +1,35 @@
+<svg width="450" height="200" viewBox="0 0 450 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #1a1b26; rx: 10px; }
+    .border { stroke: #414868; stroke-width: 1px; fill: none; rx: 10px; }
+    .title { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 700; font-size: 18px; fill: #7aa2f7; }
+    .icon { font-size: 16px; }
+    .label { font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 14px; fill: #a9b1d6; }
+    .value { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 600; font-size: 14px; fill: #7dcfff; }
+  </style>
+
+  <rect width="450" height="200" class="bg" />
+  <rect width="449" height="199" x="0.5" y="0.5" class="border" />
+
+  <!-- Title -->
+  <text x="25" y="35" class="title">⚡ GitHub Overview Stats</text>
+  <line x1="25" y1="48" x2="425" y2="48" stroke="#3b4261" stroke-width="1" />
+
+  <!-- Stat Items -->
+  <g transform="translate(25, 75)">
+    <text class="label" x="0" y="0">📁 Public Repositories:</text>
+    <text class="value" x="380" y="0" text-anchor="end">1</text>
+
+    <text class="label" x="0" y="25">⭐ Total Stars Earned:</text>
+    <text class="value" x="380" y="25" text-anchor="end">0</text>
+
+    <text class="label" x="0" y="50">🍴 Total Forks:</text>
+    <text class="value" x="380" y="50" text-anchor="end">0</text>
+
+    <text class="label" x="0" y="75">👥 Followers:</text>
+    <text class="value" x="380" y="75" text-anchor="end">0</text>
+
+    <text class="label" x="0" y="100">⏳ Account Age:</text>
+    <text class="value" x="380" y="100" text-anchor="end">16 days</text>
+  </g>
+</svg>

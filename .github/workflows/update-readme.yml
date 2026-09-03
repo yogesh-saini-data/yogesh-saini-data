@@ -42,11 +42,11 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Check if README.md was modified
-          if git diff --quiet README.md; then
-            echo "No changes in README.md to commit."
+          # Check if README.md or SVG cards changed
+          if git diff --quiet README.md assets/; then
+            echo "No changes in README.md or assets/ to commit."
           else
-            git add README.md
-            git commit -m "chore: update profile README [skip ci]"
+            git add README.md assets/
+            git commit -m "chore: update profile README and SVG cards [skip ci]"
             git push
           fi

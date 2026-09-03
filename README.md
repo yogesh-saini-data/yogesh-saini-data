@@ -29,7 +29,18 @@ I'm a developer passionate about building things with code. Currently exploring 
 
 ---
 
-## 📊 Calculated GitHub Statistics (Real Data)
+## 📊 Analytics & Visual Stats Cards (Custom Generated)
+
+<p align="center">
+  <img src="./assets/stats_card.svg" alt="Overview Stats" />
+  <img src="./assets/activity_card.svg" alt="Activity Curve" />
+</p>
+
+<p align="center">
+  <img src="./assets/languages_card.svg" alt="Top Languages" />
+</p>
+
+### 📈 Calculated Repository Metrics
 
 <!-- GITHUB_STATS_START -->
 | Metric | Value |
@@ -67,7 +78,7 @@ No description provided.
 
 ---
 
-## 📈 Recent Activity
+## 📉 Recent Activity
 
 <!-- ACTIVITY_START -->
 **7** recent public events
