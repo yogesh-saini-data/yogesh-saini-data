@@ -14,9 +14,15 @@
 
   
     <g transform="translate(25, 65)">
+      <text font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" fill="#a9b1d6" x="0" y="12">CSS</text>
+      <rect x="110" y="2" width="240" height="12" fill="#24283b" rx="6" />
+      <rect x="110" y="2" width="130" height="12" fill="#7aa2f7" rx="6" />
+      <text font-family="'Segoe UI', Ubuntu, sans-serif" font-weight="600" font-size="13" fill="#7aa2f7" x="380" y="12" text-anchor="end">50.0%</text>
+    </g>
+    <g transform="translate(25, 95)">
       <text font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" fill="#a9b1d6" x="0" y="12">Python</text>
       <rect x="110" y="2" width="240" height="12" fill="#24283b" rx="6" />
-      <rect x="110" y="2" width="260" height="12" fill="#7aa2f7" rx="6" />
-      <text font-family="'Segoe UI', Ubuntu, sans-serif" font-weight="600" font-size="13" fill="#7aa2f7" x="380" y="12" text-anchor="end">100.0%</text>
+      <rect x="110" y="2" width="130" height="12" fill="#7dcfff" rx="6" />
+      <text font-family="'Segoe UI', Ubuntu, sans-serif" font-weight="600" font-size="13" fill="#7dcfff" x="380" y="12" text-anchor="end">50.0%</text>
     </g>
 </svg>

@@ -25,9 +25,9 @@
 
   <!-- Top Stat Metrics -->
   <g transform="translate(25, 70)">
-    <text class="label" x="0" y="0">🔀 Pull Requests: <tspan class="value">5</tspan></text>
-    <text class="label" x="180" y="0">🔨 Code Pushes: <tspan class="value">0</tspan></text>
-    <text class="label" x="0" y="22">🔥 Recent Events: <tspan class="value">5</tspan></text>
+    <text class="label" x="0" y="0">🔀 Pull Requests: <tspan class="value">2</tspan></text>
+    <text class="label" x="180" y="0">🔨 Code Pushes: <tspan class="value">4</tspan></text>
+    <text class="label" x="0" y="22">🔥 Recent Events: <tspan class="value">7</tspan></text>
   </g>
 
   <!-- Curve Chart Section -->
@@ -38,11 +38,11 @@
   <line x1="35" y1="185" x2="415" y2="185" stroke="#3b4261" stroke-width="1" />
 
   <!-- Area Fill under curve -->
-  <path d="M 35.0,170.0 C 66.7,170.0 66.7,170.0 98.3,170.0 C 130.0,170.0 130.0,170.0 161.7,170.0 C 193.3,170.0 193.3,170.0 225.0,170.0 C 256.7,170.0 256.7,170.0 288.3,170.0 C 320.0,170.0 320.0,155.0 351.7,155.0 C 383.3,155.0 383.3,140.0 415.0,140.0 L 415.0,185 L 35.0,185 Z" fill="url(#curveGradient)" />
+  <path d="M 35.0,176.0 C 66.7,176.0 66.7,176.0 98.3,176.0 C 130.0,176.0 130.0,176.0 161.7,176.0 C 193.3,176.0 193.3,176.0 225.0,176.0 C 256.7,176.0 256.7,176.0 288.3,176.0 C 320.0,176.0 320.0,176.0 351.7,176.0 C 383.3,176.0 383.3,140.0 415.0,140.0 L 415.0,185 L 35.0,185 Z" fill="url(#curveGradient)" />
 
   <!-- Curve Line -->
-  <path d="M 35.0,170.0 C 66.7,170.0 66.7,170.0 98.3,170.0 C 130.0,170.0 130.0,170.0 161.7,170.0 C 193.3,170.0 193.3,170.0 225.0,170.0 C 256.7,170.0 256.7,170.0 288.3,170.0 C 320.0,170.0 320.0,155.0 351.7,155.0 C 383.3,155.0 383.3,140.0 415.0,140.0" class="curve-line" />
+  <path d="M 35.0,176.0 C 66.7,176.0 66.7,176.0 98.3,176.0 C 130.0,176.0 130.0,176.0 161.7,176.0 C 193.3,176.0 193.3,176.0 225.0,176.0 C 256.7,176.0 256.7,176.0 288.3,176.0 C 320.0,176.0 320.0,176.0 351.7,176.0 C 383.3,176.0 383.3,140.0 415.0,140.0" class="curve-line" />
 
   <!-- Data Dots -->
-  <circle cx="35.0" cy="170.0" r="3" fill="#7dcfff" /><circle cx="98.3" cy="170.0" r="3" fill="#7dcfff" /><circle cx="161.7" cy="170.0" r="3" fill="#7dcfff" /><circle cx="225.0" cy="170.0" r="3" fill="#7dcfff" /><circle cx="288.3" cy="170.0" r="3" fill="#7dcfff" /><circle cx="351.7" cy="155.0" r="3" fill="#7dcfff" /><circle cx="415.0" cy="140.0" r="3" fill="#7dcfff" />
+  <circle cx="35.0" cy="176.0" r="3" fill="#7dcfff" /><circle cx="98.3" cy="176.0" r="3" fill="#7dcfff" /><circle cx="161.7" cy="176.0" r="3" fill="#7dcfff" /><circle cx="225.0" cy="176.0" r="3" fill="#7dcfff" /><circle cx="288.3" cy="176.0" r="3" fill="#7dcfff" /><circle cx="351.7" cy="176.0" r="3" fill="#7dcfff" /><circle cx="415.0" cy="140.0" r="3" fill="#7dcfff" />
 </svg>

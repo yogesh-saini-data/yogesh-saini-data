@@ -45,12 +45,12 @@ I'm a developer passionate about building things with code. Currently exploring 
 <!-- GITHUB_STATS_START -->
 | Metric | Value |
 |--------|-------|
-| 📁 Public Repositories | 1 |
+| 📁 Public Repositories | 2 |
 | ⭐ Total Stars | 0 |
 | 🍴 Total Forks | 0 |
 | 👥 Followers | 0 |
 | 👤 Following | 1 |
-| 🔄 Most Recent | [yogesh-saini-data](https://github.com/yogesh-saini-data/yogesh-saini-data) (updated September 03, 2026) |
+| 🔄 Most Recent | [my-project](https://github.com/yogesh-saini-data/my-project) (updated September 03, 2026) |
 <!-- GITHUB_STATS_END -->
 
 ---
@@ -60,7 +60,8 @@ I'm a developer passionate about building things with code. Currently exploring 
 <!-- TECHNOLOGIES_START -->
 | Language | Repositories | Usage |
 |----------|:------------:|-------|
-| Python | 1 | ████████████████████ 100.0% |
+| CSS | 1 | ██████████ 50.0% |
+| Python | 1 | ██████████ 50.0% |
 <!-- TECHNOLOGIES_END -->
 
 ---
@@ -68,6 +69,12 @@ I'm a developer passionate about building things with code. Currently exploring 
 ## 🔥 Featured Projects
 
 <!-- PROJECTS_START -->
+### [my-project](https://github.com/yogesh-saini-data/my-project)
+
+No description provided.
+
+💻 CSS · ⭐ 0 · 🍴 0
+
 ### [yogesh-saini-data](https://github.com/yogesh-saini-data/yogesh-saini-data)
 
 No description provided.
@@ -81,13 +88,13 @@ No description provided.
 ## 📉 Recent Activity
 
 <!-- ACTIVITY_START -->
-**5** recent public events
+**7** recent public events
 
-- 🔀 Pull request on **Saini-Yogesh/Self-Helping-Tool** (September 02, 2026)
-- 🔀 Pull request on **Saini-Yogesh/Self-Helping-Tool** (September 02, 2026)
-- 🔀 Pull request on **Saini-Yogesh/Self-Helping-Tool** (September 02, 2026)
-- 🔀 Pull request on **Saini-Yogesh/Self-Helping-Tool** (August 27, 2026)
-- 🔀 Pull request on **Saini-Yogesh/Self-Helping-Tool** (August 27, 2026)
+- 🔨 Pushed code to **yogesh-saini-data/my-project** (September 03, 2026)
+- 🔨 Pushed code to **yogesh-saini-data/my-project** (September 03, 2026)
+- 🔨 Pushed code to **yogesh-saini-data/yogesh-saini-data** (September 03, 2026)
+- 🔨 Pushed code to **yogesh-saini-data/yogesh-saini-data** (September 03, 2026)
+- ✨ Created **yogesh-saini-data/yogesh-saini-data** (September 03, 2026)
 
 _Activity is based on public events from the last 90 days via the GitHub Events API._
 <!-- ACTIVITY_END -->
@@ -105,5 +112,5 @@ _Activity is based on public events from the last 90 days via the GitHub Events 
 ---
 
 <!-- LAST_UPDATED_START -->
-_🕐 Last updated: September 03, 2026 (UTC)_
+_🕐 Last updated: September 04, 2026 (UTC)_
 <!-- LAST_UPDATED_END -->

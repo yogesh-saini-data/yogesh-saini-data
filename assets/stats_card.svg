@@ -17,7 +17,7 @@
   <!-- Stat Items -->
   <g transform="translate(25, 75)">
     <text class="label" x="0" y="0">📁 Public Repositories:</text>
-    <text class="value" x="380" y="0" text-anchor="end">1</text>
+    <text class="value" x="380" y="0" text-anchor="end">2</text>
 
     <text class="label" x="0" y="25">⭐ Total Stars Earned:</text>
     <text class="value" x="380" y="25" text-anchor="end">0</text>
@@ -29,6 +29,6 @@
     <text class="value" x="380" y="75" text-anchor="end">0</text>
 
     <text class="label" x="0" y="100">⏳ Account Age:</text>
-    <text class="value" x="380" y="100" text-anchor="end">16 days</text>
+    <text class="value" x="380" y="100" text-anchor="end">17 days</text>
   </g>
 </svg>
